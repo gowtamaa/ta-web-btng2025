@@ -1,0 +1,23 @@
+h2{
+    color: brown;
+}
+
+p {
+    color: cornflowerblue;
+}
+
+#wadah {
+   background-color: burlywood; color: coral;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black !important;
+}
+
+.oren {
+    color: orange;
+    font-size: medium;
+    border: 2px solid black !important;
+
+}
