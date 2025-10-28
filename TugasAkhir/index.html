@@ -1,37 +1,85 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Vincent Porthofolio Website</title>
-</head>
-<body>
-    <header>
-        <a href="#" class="logo">Vincent</a>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gowtama — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Gowtama</div>
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>
-            <a href="#">Experience</a>
-            <a href="#">Contact</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
-        <div class="home.img">
-            <img src="main.jpg" alt="">
-        </div>
-        <div class="home-content">
-            <h1> Hi, Saya<span>Vincent</span></h1>
-            <h3 class="typing-text">Aku Adalah <span></span> </h3>
-            <p>Mahasiswa Udinus yang Mengikuti pelatihan BTNG </p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi — I'm Gowtama.</h1>
+            <p>I build tools, systems, and strategies for digital products. I turn complex problems into simple, elegant
+                solutions.</p>
+               
+
+            <div class="hero-buttons">
+                <div class="buttons">
+                    <a href="gowtama50gmail.com" class="btn-outline">Email Me</a>
+                    <a href="https://wa.me/6281234567890" class="btn-outline">WhatsApp</a>
+                    <a href="https://instagram.com/gowtamaa" class="btn-outline">Instagram</a>
+                </div>
+                </div>
+               
             </div>
         </div>
+        <div class="btn-project">
+            <a href="#projects" class="btn-main">MY PROJECTS</a>
+        </div>
     </section>
-</body>
-</html>
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>Konfigurasi Jaringan LAN</h3>
+            <p>Konfigurasi RT/RW NET</p>
+            <img src="lan-project.jpg" alt="Project LAN">
+    <section id="certificates" class="cert-section">
+        <h2>Certificates</h2>
+        <div class="cert-grid">
+    
+            <div class="cert-card">
+                <h3>Junior Network Administrator</h3>
+                <p>competent in making and configuring LAN networks</p>
+                <img src="sertifikat.jpg" alt="Full Stack Developer Certificate">
+            </div>
+    </div>
+</section>
+
+    <section id="about" class="about">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>I'm pursuing a path to become an influential figure in Indonesia's digital economy. I focus on product
+                engineering, strategy, and deductive thinking through games and puzzles.</p>
+            <ul>
+                <li>Building interactive dashboards and small web apps.</li>
+                <li>Local Area Network Configuration.</li>
+            </ul>
+        </div>
+        <aside class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>LAN network configuration</li>
+                <li>create network topology</li>
+                <li>Junior Network Administrator</li>
+            </ul>
+        </aside>
+    </section>
+
+
+    
